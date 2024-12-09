@@ -69,8 +69,7 @@ network.add_link("A", "B", 1)
 network.add_link("B", "C", 2)
 network.add_link("A", "C", 4)
 network.add_link("C", "D", 1)
-network.add_link("E", "D", 1)
-
+network.add_link("E", "D", 4)
 
 # Inizializza e simula
 network.initialize_tables()
